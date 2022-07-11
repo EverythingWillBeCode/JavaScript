@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            let edad, final;
+            edad = prompt("edad?", "");
+
+            if (isNaN(edad)) {
+                final = "Error, no es un numero ";
+            } else {
+                final = (edad < 18) ? "Demasiado joven" : "Mayor de edad";
+            }
+            document.write(final);
+        </script>
+    </head>
+</html>

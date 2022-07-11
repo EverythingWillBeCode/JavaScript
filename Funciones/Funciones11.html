@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="utf-8"/>
+    <script>
+        function f()
+        {
+            let solo_local = 100;
+            let z = solo_local;
+        }
+    </script>
+    </head>
+
+    <body>
+        <script>
+            let x, y;
+            y = "Bon dia";
+
+            document.write("<p> Este es el valor de x: ", + x, "</p>");
+            document.write("<p> Este es el valor de y: ", + y, "</p>");
+            f();
+            document.write("<p>Este es el valor de z: ", + z, "</p>")
+        </script>
+    <p><br>Las variables declaras en la funcion (f) existen durante el tiempo de 
+        ejecucion de la funcion. El resto son variables globales. </p> 
+</body>
+</html>

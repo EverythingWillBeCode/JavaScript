@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><meta = charset="utf-8">
+<script>
+    let nota1, nota2, nota3;
+    let dato1, dato2, dato3, media;
+
+    dato1 = window.prompt("Primero Numero!: ", "...")
+    nota1 = parseInt(dato1);
+
+    dato2 = window.prompt("Segunda Numero!: ", "...")
+    nota2 = parseInt(dato2);
+
+    dato3 = window.prompt("Tercer Numero!: ", "...")
+    nota3 = parseInt(dato3);
+
+    media = (nota1 + nota2 + nota3) / 3;
+
+    if(media < 5)
+    {
+        resutltat = "Suspendido";
+    }
+    else
+    {
+        resutltat = "Aprobado";
+    }
+    document.write("La nota final es ", resutltat);
+
+</script>
+</head>
+</html>
